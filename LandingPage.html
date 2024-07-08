@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Landing.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Divya's Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            
+            <h1>Divya's Coding Page</h1>
+            <button>
+                <a href="https://www.linkedin.com/in/divyani-patel-a5b32a270/">
+                    Explore More
+                </a>
+            </button>
+            
+        </div>
+        <div class="side2">
+            <img src="https://www.herzing.edu/sites/default/files/2020-09/how-to-become-software-engineer.jpg";
+                width="600">
+        </div>
+    </div>  
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            <b>DSA</b>
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data 
+                        Structures and Algorithms. As 
+                        the name itself suggests, it 
+                        is a combination of two 
+                        separate yet interrelated 
+                        topics.
+                        They provide a systematic way to organize, manage, and manipulate data efficiently, enabling the development of optimized and scalable software solutions.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            <b>HTML</b>
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.It forms the backbone of all web content, structuring the text, images, and other elements that appear in a web browser. HTML is a markup language, which means it uses tags to annotate and format content.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           <b> Javascript </b>
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                        JavaScript is an essential language for web development,
+                         offering endless possibilities for creating dynamic,
+                          interactive, and efficient web applications.It is one of
+                           the core technologies of the World Wide Web, alongside HTML 
+                           and CSS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            <p>Email Id:divyanipatel2022@gmail.com</p>
+                            <p>Mobile No.: 7380553501</p>
+                           <p>Address: Greater Noida,U.P (201306) ,India</p>
+                        </div>
+                        <div class="title1">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                <u>Created By:</u>
+                <a href="https://www.linkedin.com/in/divyani-patel-a5b32a270/" 
+                    target="_blank">
+                  <h1> Divya's Coding Page</h1>
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script>
+        function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+}
+function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+}
+
+    </script>
+</body>
+
+</html>

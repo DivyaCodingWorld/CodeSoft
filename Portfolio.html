@@ -1,0 +1,394 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="Portfolio.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+    
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h1 class="logo-heading">Divyani Patel</h1> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							<b>Home </b>
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							<b>Portfolio </b>
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							<b>About </b>
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							<b>Services </b>
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							<b>Contact Me </b>
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+ 
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Divyani Patel</h1>   
+				<h4 class="sub-heading"> 
+					<h3>A Software Engineer with 3 years of Experience. </h3>
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">Hire Me</button> 
+				<button class="btn ghost-btn">Get Resume</button> 
+			</div> 
+		</div> 
+	</section>
+     
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Featured Portfolio</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://4.imimg.com/data4/GD/HN/MY-25218265/web-designing.jpg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para blue-text">Development</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://assets.entrepreneur.com/content/3x2/2000/1648113590-new4.jpg" alt="SEO Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para blue-text">Optimization</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://ebizfiling.com/wp-content/uploads/2022/05/content-writing-2-768x512-1.webp"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Content Writing 
+						</h3> 
+						<p class="small-para blue-text">Writing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://uanvi.com/wp-content/uploads/2022/04/WordPress.jpg"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							WordPress Dev 
+						</h3> 
+						<p class="small-para blue-text"> 
+							Content Management System 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/adobestock-395249675.jpeg"
+								alt="Video Editing Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para blue-text">Editing /Creating</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				Hello, I'm DIVYANI PATEL, passionate web developer with a strong focus on [Front-end,Back-end & Full-stock developemnt and real world problem solving (DSA)].I have owned my skills in html,css,javascript,react,node.js etc.I enjoy working on project that challanges me and allow me to grow,both personally and professionally.In my spare time,I love to play chess & badminton.I also contribute in open-source project,learning
+				new technologies,blogging about web development.I believe in continuous learning & staying updated with the latesttrends & technologies in web development.I'm always open to new opportunities & collaborations.
+				
+ 			</p> 
+			<p> 
+				
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="https://media.licdn.com/dms/image/D4D12AQHbztE6qLUY_A/article-cover_image-shrink_720_1280/0/1653904474434?e=2147483647&v=beta&t=n4U78h2qC-HxedYmEENvyD5RrlXWmVfPtb1V_aZbsQo" alt="Avtar"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">My Services</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para"> 
+							Web design is the art and science of creating the visual and interactive aspects of websites. 
+							It encompasses a variety of skills and disciplines, including graphic design, user interface
+							 (UI) design, user experience (UX) design, and front-end development. 
+						</p> 
+						<p class="small-para"> 
+							Web design is a dynamic and ever-evolving field that blends creativity with technical skills.
+							 It requires staying updated with the latest trends, tools, and best practices to create websites that are not only aesthetically pleasing but also functional and user-friendly.A well-designed website not only looks appealing but also provides a seamless and intuitive user experience.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para"> 
+							Web development refers to the creating, 
+							building, and maintaining 
+							of websites. It includes aspects such as 
+							web design, web publishing, 
+							web programming, and database management.
+							Web development is a rapidly evolving field that requires a blend of technical skills, creativity, and continuous learning.  
+							
+						</p> 
+						<p class="small-para"> 
+							Web development is the process of building and maintaining websites and web applications. It involves a combination of programming, design, and database management to create dynamic and interactive websites that provide users with valuable experiences. 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para"> 
+							Search Engine Optimization (SEO) is the practice of enhancing a website to increase its visibility in search engine results pages (SERPs). The goal of SEO is to attract organic traffic from search engines like Google, Bing, by ensuring that the website ranks higher for relevant search queries.
+						</p> 
+						<p class="small-para"> 
+							SEO is a dynamic and multifaceted field that requires ongoing attention and adaptation to stay ahead of search engine algorithm updates and industry changes. By implementing effective SEO strategies, businesses and individuals can improve their online visibility,  and achieve their digital marketing goals. 
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Content Writting 
+						</h3> 
+						<p class="small-para"> 
+							Content writing is the process of planning, creating, and editing written material for digital and print media. It encompasses a variety of formats, including blog posts, articles, website content, social media posts, marketing copy, and more. Effective content writing aims to engage, inform, and persuade an audience,  and brand awareness.
+
+ 
+						</p> 
+						<p class="small-para"> 
+							Content writing is a versatile and dynamic field that plays a crucial role in digital marketing and communication. By creating high-quality, engaging, and optimized content, businesses and individuals can effectively reach and resonate with their target audience, achieving their marketing and communication goals.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							WordPress Dev 
+						</h3> 
+						<p class="small-para"> 
+							WordPress is a powerful and widely-used content management system (CMS) that allows users to create and manage websites with ease. Initially designed as a blogging platform, WordPress has evolved into a versatile CMS supporting various types of websites, including e-commerce sites, portfolios, business websites, and more. 
+						</p> 
+						<p class="small-para"> 
+							WordPress development offers a blend of creativity and technical skills, allowing developers to create highly customized and functional websites. Whether you’re building a personal blog or a complex e-commerce site, mastering WordPress development opens up a wide range of possibilities in the web development world.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-video"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para"> 
+							Video editing is the process of manipulating and rearranging video shots to create a new work. It involves cutting segments (trimming), re-sequencing clips, adding transitions, effects, and other elements to produce a polished final product. Video editing is essential in various fields, including filmmaking, television production, online content creation, marketing, and social media.
+						</p> 
+						<p class="small-para"> 
+							Video editing is a dynamic and creative field that combines technical skills with artistic vision. Whether you're creating content for personal projects, professional productions, or social media, mastering video editing can help you tell compelling stories and connect with your audience effectively.
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<div class="container">
+		<div style="text-align:center">
+		  <h2>Contact Us</h2>
+		  
+		</div>
+		<div class="row">
+		  <div class="column">
+			<img src="https://media.istockphoto.com/id/1252809376/photo/japanese-man-at-hand-using-a-smartphone.jpg?s=612x612&w=0&k=20&c=3zUF1981mbU4mN3gmQ8IYWU96HAs1pPEN89WYKw5NAQ=" style="width:100%">
+		  </div>
+		  <div class="column">
+			<form action="/action_page.php">
+			  <label for="fname">First Name</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			  <label for="lname">Last Name</label>
+			  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			  <label for="lname">E-mail Id:</label>
+			  <input type="text" id="lname" name="e-mail id" placeholder="E-mail id..">
+			  <label for="country">Country</label>
+			  <select id="country" name="country">
+				<option value="australia">India</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+			  </select>
+			  <label for="subject">Subject</label>
+			  <textarea id="subject" name="subject" placeholder="Write something.." style="height:120px"></textarea>
+			  <input type="submit" value="Submit">
+			</form>
+		  </div>
+		</div>
+	  </div>
+
+			
+<!-- <div class="box">Contact Details</div> -->
+<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">Email : </h5> 
+					<p class="contact-text">divyanipatel2022@gmail.com  </p> <br>
+					<h5 class="contact-heading">Phone :</h5> 
+					<p class="contact-text">+91-7380553501  </p><br>
+					<h5 class="contact-heading">Address :</h5> 
+					<p class="contact-text">Greater Noida,Delhi</p> 
+				
+				</div> 
+			</div>
+		</div> 
+
+
+	</section> 
+	
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2024 All rights reserved | 
+				This portfolio website template is created 
+				by Divya's.. 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="Portfolio.js"></script> 
+</body> 
+
+</html>
